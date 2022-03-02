@@ -19,7 +19,7 @@ app.get('/contacto', function(request, response) {
     response.sendFile(path.join(__dirname, '/vistas/contacto.html'));
 })
 
-// asignacion el puerto en el que correra la app
+// asignacion del puerto en el que escuchara el servidor
 app.listen(3000, function() {
     console.log('Servidor escuchando en el puerto 3000');
   });
